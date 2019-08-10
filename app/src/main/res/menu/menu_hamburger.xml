@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ham_lesson"
+            android:icon="@drawable/ic_book_black_24dp"
+
+
+            android:title="Lesson" />
+
+        <item
+            android:id="@+id/ham_allLessons"
+            android:icon="@drawable/ic_library_books_black_24dp"
+
+            android:title="All Lessons"
+
+            />
+
+        <item
+            android:id="@+id/ham_progress"
+            android:icon="@drawable/chart"
+
+            android:title="progress" />
+
+        <item
+            android:id="@+id/ham_practice"
+            android:icon="@drawable/ic_practice"
+
+            android:title="practice"
+
+
+            />
+
+        <item
+            android:id="@+id/ham_premium"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+
+            android:title="premium" />
+    </group>
+
+   
+
+
+</menu>

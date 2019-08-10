@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setTitle("");
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentPractice()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentLessons()).commit();
 
 
 
